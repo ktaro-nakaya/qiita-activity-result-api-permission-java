@@ -1,0 +1,1 @@
+# qiita-activity-result-api-permission-java
