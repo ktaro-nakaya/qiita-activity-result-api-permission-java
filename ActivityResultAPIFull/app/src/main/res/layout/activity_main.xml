@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnRequestMultiplePermissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnRequestMultiplePermissions"
+                android:text="ActivityResultContracts.RequestMultiplePermissions"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnRequestPermission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnRequestPermission"
+                android:text="ActivityResultContracts.RequestPermission"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnCreateDocument"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnCreateDocument"
+                android:text="ActivityResultContracts.CreateDocument"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnGetContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnGetContent"
+                android:text="ActivityResultContracts.GetContent"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnGetMultipleContents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnGetMultipleContents"
+                android:text="ActivityResultContracts.GetMultipleContents"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnOpenDocument"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnOpenDocument"
+                android:text="ActivityResultContracts.OpenDocument"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:id="@+id/btnOpenDocumentTree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnOpenDocumentTree"
+                android:text="ActivityResultContracts.OpenDocumentTree"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:id="@+id/btnOpenMultipleDocuments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnOpenMultipleDocuments"
+                android:text="ActivityResultContracts.OpenMultipleDocuments"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnPickContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnPickContact"
+                android:text="ActivityResultContracts.PickContact"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:id="@+id/btnStartActivityForResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnStartActivityForResult"
+                android:text="ActivityResultContracts.StartActivityForResult"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnStartIntentSenderForResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnStartIntentSenderForResult"
+                android:text="ActivityResultContracts.StartIntentSenderForResult"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnTakePicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnTakePicture"
+                android:text="ActivityResultContracts.TakePicture"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnTakePicturePreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnTakePicturePreview"
+                android:text="ActivityResultContracts.TakePicturePreview"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnTakeVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="clickBtnTakeVideo"
+                android:text="ActivityResultContracts.TakeVideo"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
